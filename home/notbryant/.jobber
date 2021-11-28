@@ -57,8 +57,8 @@ jobs:
   #    notifyOnError: [*programSink]  # what to do with result when job has an error
   #    notifyOnFailure: [*systemEmailSink, *programSink]  # what to do with result when the job stops due to errors
   #    notifyOnSuccess: [*filesystemSink]  # what to do with result when the job succeeds
-  CommitFishDotfiles:
-      cmd: cd ~/.config/fish ; git add -A ; git commit -m "Auto-commit by Jobber"; eval `keychain --eval id_rsa -q` ; git push
+  CommitDotfiles:
+      cmd: cd ~/master/muh_dotfiles ; ./update.sh ; git add -A ; git commit -m "Auto-commit by Jobber"; eval `keychain --eval id_rsa -q` ; git push
       time: 0 0 13
       onError: Continue
   CommitScripts:
