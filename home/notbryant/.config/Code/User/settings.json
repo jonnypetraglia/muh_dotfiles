@@ -1,0 +1,168 @@
+{
+    "salesforcedx-vscode-core.retrieve-test-code-coverage": false,
+    "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk/",
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "off",
+    "files.autoSaveDelay": 4000,
+    "yaml.schemas": {
+        "file:///home/notbryant/.vscode/extensions/atlassian.atlascode-2.10.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.workingProject": {
+        "id": "11501",
+        "name": "Salesforce",
+        "key": "SFDC"
+    },
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "3345dccb-a871-4981-add0-eb03f1301193",
+        "projectKey": ""
+    },
+    "sync.gist": "87ff2919f2911f86594810dd8838d269",
+    "sync.autoUpload": true,
+    "sync.forceUpload": true,
+    "coddx.taskBoard.fileList": "MasterTODO.md",
+    "enableTelemetry": true,
+    "atlascode.jira.hover.enabled": false,
+    "atlascode.jira.todoIssues.enabled": false,
+    "atlascode.jira.statusbar.enabled": false,
+    "atlascode.bitbucket.explorer.enabled": true,
+    "atlascode.jira.enabled": true,
+    "atlascode.bitbucket.enabled": true,
+    "window.autoDetectHighContrast": false,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+    "workbench.preferredDarkColorTheme": "Slime",
+    "workbench.preferredLightColorTheme": "Slime",
+    "workbench.preferredHighContrastColorTheme": "Slime",
+    "editor.semanticTokenColorCustomizations": null,
+    "git.autofetch": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.semanticHighlighting.enabled": true,
+    "liveshare.allowInvites": "all",
+    "liveshare.focusBehavior": "prompt",
+    "liveshare.guestApprovalRequired": true,
+    "editor.renderControlCharacters": true,
+    "extensions.ignoreRecommendations": false,
+    "[xml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "atlascode.jira.explorer.enabled": true,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "98c4acad-a99d-4300-b1d4-b361127720e8",
+            "siteId": "3345dccb-a871-4981-add0-eb03f1301193",
+            "name": "Active Sprint Current User",
+            "query": "assignee = currentUser() AND sprint in openSprints () AND resolution = Unresolved order by created DESC",
+            "enabled": true,
+            "monitor": true
+        },
+        {
+            "id": "b48bc465-788e-4978-ade0-018739be7c9d",
+            "siteId": "3345dccb-a871-4981-add0-eb03f1301193",
+            "name": "Active Sprint Jonny",
+            "query": "assignee in (5d44879c4ab9030da1422c59) AND sprint in openSprints () AND resolution = Unresolved order by created DESC",
+            "enabled": false,
+            "monitor": true
+        }
+    ],
+    "atlascode.jira.explorer.nestSubtasks": false,
+    "atlascode.jira.explorer.refreshInterval": 5,
+    "settingsSync.ignoredSettings": [
+        "salesforcedx-vscode-apex.java.home"
+    ],
+    "settingsSync.keybindingsPerPlatform": false,
+    "files.watcherExclude": {
+        "**/.sfdx/**": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.codeLens.enabled": false,
+    "projectManager.git.baseFolders": [
+        "/home/notbryant/werk/"
+    ],
+    "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": false,
+    "eslint.packageManager": "yarn",
+    "cSpell.userWords": [
+        "inspirato",
+        "inspirato's"
+    ],
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorTheme": "KotStream Theme Dark Functional",
+    "problems.decorations.enabled": false,
+    "lineJumper.linesToJump": 4,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "explorer.autoReveal": false,
+    "diffEditor.renderSideBySide": false,
+    "salesforcedx-vscode-core.show-cli-success-msg": false,
+    "coverage-gutters.coverageFileNames": [
+        "coverage-final.json",
+        "lcov.info",
+        "cov.xml",
+        "coverage.xml",
+        "jacoco.xml"
+    ],
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "editor.formatOnSave": false,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "telemetry.enableTelemetry": false,
+    "salesforcedx-vscode-core.telemetry.enabled": false,
+    "telemetry.enableCrashReporter": false,
+    "redhat.telemetry.enabled": false,
+    "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true
+}

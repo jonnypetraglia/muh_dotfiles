@@ -1,0 +1,20 @@
+[Appearance]
+Skin=materia-dark
+SkinInstalledWithKns=true
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=Werk.profile
+
+[Dialogs]
+FirstRun=false
+
+[DownloadDialog Settings]
+HDMI-0 DP-0 Height 1920x1080=494
+HDMI-0 DP-0 Width 1920x1080=700
+
+[Window]
+Height=100
+KeepOpen=false
+ShowSystrayIcon=false
+ToggleToFocus=true

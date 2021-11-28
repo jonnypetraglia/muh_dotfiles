@@ -1,0 +1,5 @@
+{
+  "defaultdevhubusername": "Prod",
+  "disableTelemetry": "true",
+  "restDeploy": "false"
+}
