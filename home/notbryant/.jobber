@@ -65,7 +65,3 @@ jobs:
       cmd: cd ~/master/scripts; ./update_packages.sh; git add -A ; git commit -m "Auto-commit by Jobber"; eval `keychain --eval id_rsa -q` ;  git push
       time: 0 0 13
       onError: Continue
-  BackupJobberConfig:
-      cmd: cp ~/.jobber ~/master/scripts/
-      time: 0 0 13
-      onError: Continue
