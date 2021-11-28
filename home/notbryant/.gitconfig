@@ -1,0 +1,21 @@
+[core]
+	editor = vim
+[user]
+	name = Jonny Petraglia
+	email = jpetraglia@inspirato.com
+[pull]
+	rebase = false
+[diff]
+	tool = kompare
+[merge]
+	tool = kdiff3
+	verbosity = 2
+[init]
+	templatedir = ~/.git-templates
+	defaultBranch = main
+[alias]
+	pull-all = !"for b in $(git for-each-ref refs/heads --format='%(refname)') ; do git checkout ${b#refs/heads/} ; git pull --ff-only ; done"
+	unstage = reset HEAD --
+[cola]
+	spellcheck = false
+	tabwidth = 4
