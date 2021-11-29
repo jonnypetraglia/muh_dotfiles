@@ -13,7 +13,7 @@ function fish_greeting
     fortune ~/masto
 end
 
-eval `keychain -q`
+keychain -q
 
 
 set SPACEFISH_PACKAGE_SHOW false
