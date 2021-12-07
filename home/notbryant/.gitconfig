@@ -19,3 +19,5 @@
 [cola]
 	spellcheck = false
 	tabwidth = 4
+[credential]
+	helper = store

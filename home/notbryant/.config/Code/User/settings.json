@@ -1,5 +1,5 @@
 {
-    "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
+    "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": false,
     "salesforcedx-vscode-core.retrieve-test-code-coverage": false,
     "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk/",
     "workbench.startupEditor": "newUntitledFile",
@@ -165,6 +165,5 @@
     "salesforcedx-vscode-core.telemetry.enabled": false,
     "telemetry.enableCrashReporter": false,
     "redhat.telemetry.enabled": false,
-    "explorer.confirmDelete": false,
-    "window.zoomLevel": -1
+    "explorer.confirmDelete": false
 }
