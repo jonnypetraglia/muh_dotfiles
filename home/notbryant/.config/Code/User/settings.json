@@ -165,5 +165,6 @@
     "salesforcedx-vscode-core.telemetry.enabled": false,
     "telemetry.enableCrashReporter": false,
     "redhat.telemetry.enabled": false,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": -1
 }
