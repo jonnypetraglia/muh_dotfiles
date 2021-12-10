@@ -1,6 +1,7 @@
 {
-    "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": false,
+    "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
     "salesforcedx-vscode-core.retrieve-test-code-coverage": false,
+    "salesforcedx-vscode-core.show-cli-success-msg": true,
     "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk/",
     "workbench.startupEditor": "newUntitledFile",
     "files.autoSave": "off",
@@ -104,7 +105,6 @@
     },
     "explorer.autoReveal": false,
     "diffEditor.renderSideBySide": false,
-    "salesforcedx-vscode-core.show-cli-success-msg": false,
     "coverage-gutters.coverageFileNames": [
         "coverage-final.json",
         "lcov.info",
