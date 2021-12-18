@@ -133,7 +133,7 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+alt+numlock",
+        "key": "ctrl+y",
         "command": "workbench.files.action.showActiveFileInExplorer"
     },
     {
@@ -147,5 +147,13 @@
     {
         "key": "ctrl+k ctrl+s",
         "command": "workbench.action.files.saveFiles"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-redo"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-jsono.toggleFormat"
     }
 ]
