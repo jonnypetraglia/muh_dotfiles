@@ -19,10 +19,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
-    "atlascode.jira.lastCreateSiteAndProject": {
-        "siteId": "3345dccb-a871-4981-add0-eb03f1301193",
-        "projectKey": ""
-    },
     "sync.gist": "87ff2919f2911f86594810dd8838d269",
     "sync.autoUpload": true,
     "sync.forceUpload": true,
@@ -166,6 +162,5 @@
     "telemetry.enableCrashReporter": false,
     "redhat.telemetry.enabled": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": -1,
-    "diffEditor.ignoreTrimWhitespace": false
+    "window.zoomLevel": -1
 }
