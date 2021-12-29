@@ -88,8 +88,10 @@
     "eslint.format.enable": false,
     "eslint.packageManager": "yarn",
     "cSpell.userWords": [
+        "fanboi",
         "inspirato",
-        "inspirato's"
+        "inspirato's",
+        "isdot"
     ],
     "workbench.iconTheme": "bearded-icons",
     "workbench.productIconTheme": "fluent-icons",
@@ -162,5 +164,7 @@
     "telemetry.enableCrashReporter": false,
     "redhat.telemetry.enabled": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": -1
+    "window.zoomLevel": -1,
+    "editor.hover.delay": 600,
+    "security.workspace.trust.untrustedFiles": "open"
 }

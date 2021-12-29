@@ -3,21 +3,27 @@
 [user]
 	name = Jonny Petraglia
 	email = jpetraglia@inspirato.com
-[pull]
-	rebase = false
 [diff]
 	tool = kompare
 [merge]
+	ff = no
 	tool = kdiff3
 	verbosity = 2
 [init]
 	templatedir = ~/.git-templates
 	defaultBranch = main
-[alias]
-	pull-all = !"for b in $(git for-each-ref refs/heads --format='%(refname)') ; do git checkout ${b#refs/heads/} ; git pull --ff-only ; done"
-	unstage = reset HEAD --
 [cola]
-	spellcheck = false
+	spellcheck = true
 	tabwidth = 4
 [credential]
 	helper = store
+[alias]
+	Alias = config --get-regexp alias
+	Merge = merge --no-edit
+	Unstage = reset HEAD --
+	Br = branch --show-current
+	S = status
+	Commit = commit -m
+	Branchoff = checkout -b
+	L = log
+	L1 = log -n1
