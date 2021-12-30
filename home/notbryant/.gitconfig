@@ -1,20 +1,14 @@
 [core]
 	editor = vim
-[user]
-	name = Jonny Petraglia
-	email = jpetraglia@inspirato.com
-[diff]
-	tool = kompare
-[merge]
-	ff = no
-	tool = kdiff3
-	verbosity = 2
 [init]
 	templatedir = ~/.git-templates
 	defaultBranch = main
 [cola]
 	spellcheck = true
 	tabwidth = 4
+[user]
+	name = Jonny Petraglia
+	email = jpetraglia@inspirato.com
 [credential]
 	helper = store
 [alias]
@@ -27,3 +21,12 @@
 	Branchoff = checkout -b
 	L = log
 	L1 = log -n1
+[diff]
+	tool = kompare
+[merge]
+	ff = no
+	tool = kdiff3
+	verbosity = 2
+[pull]
+	ff = only
+	rebase = true
