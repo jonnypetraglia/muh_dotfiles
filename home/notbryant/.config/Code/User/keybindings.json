@@ -155,5 +155,9 @@
     {
         "key": "ctrl+y",
         "command": "-jsono.toggleFormat"
+    },
+    {
+        "key": "shift+`",
+        "command": "notifications.clearAll"
     }
 ]
