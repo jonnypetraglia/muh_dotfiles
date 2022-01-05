@@ -164,7 +164,7 @@
     "telemetry.enableCrashReporter": false,
     "redhat.telemetry.enabled": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": -1,
     "editor.hover.delay": 600,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": -1
 }
