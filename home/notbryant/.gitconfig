@@ -1,5 +1,6 @@
 [core]
 	editor = vim
+	whitespace = ignore-space-change,ignore-all-space,cr-at-eol
 [init]
 	templatedir = ~/.git-templates
 	defaultBranch = main
