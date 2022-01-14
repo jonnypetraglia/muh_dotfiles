@@ -7,7 +7,7 @@
     "files.autoSave": "off",
     "files.autoSaveDelay": 4000,
     "yaml.schemas": {
-        "file:///home/notbryant/.vscode/extensions/atlassian.atlascode-2.10.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///home/notbryant/.vscode/extensions/atlassian.atlascode-2.10.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "atlascode.jira.workingProject": {
         "id": "11501",
@@ -91,7 +91,8 @@
         "fanboi",
         "inspirato",
         "inspirato's",
-        "isdot"
+        "isdot",
+        "jonnytest"
     ],
     "workbench.iconTheme": "bearded-icons",
     "workbench.productIconTheme": "fluent-icons",
