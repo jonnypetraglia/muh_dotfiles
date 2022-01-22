@@ -2,22 +2,10 @@
 # See fstab(5) for details.
 
 # <file system> <dir> <type> <options> <dump> <pass>
-
-
-# Root and swap (XPG 256GB NVM SSD): /dev/nvme0n1
-## /dev/nvme0n1p1
+# /dev/nvme0n1p1
 UUID=b3c73d4c-099f-4d4e-8107-123837a2a20e	/         	ext4      	rw,relatime	0 1
-## /dev/nvme0n1p2
+
+# /dev/nvme0n1p2
 UUID=b0267166-4682-4959-9140-11c34fd65e25	none      	swap      	defaults  	0 0
-
-# "Muh_Data" (WD 20EZRZ): /dev/sdb
-## /dev/sdb1
 UUID=f083eb69-bde0-4df4-8fdb-ee20a99c441e   /home                          ext4    relatime,errors=remount-ro,discard   0 2
-
-# Windows (Samsung 1TB SSD): /dev/sda
-## /dev/sda2
 UUID=6A0A92920A925B41                       /run/media/notbryant/windurs   ntfs    noatime,                             0 0  
-
-# "Green": /dev/sdc
-UUID=5688b375-0c10-45d5-9e82-52acb0060cf6   /run/media/notbryant/Green     ext4    relatime,errors=remount-ro,discard   0 2
-# /dev/sdc1 (???) = EE85-D23F

@@ -157,7 +157,12 @@
         "command": "-jsono.toggleFormat"
     },
     {
-        "key": "shift+`",
+        "key": "shift+delete",
         "command": "notifications.clearAll"
+    },
+    {
+        "key": "shift+delete",
+        "command": "-deleteFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
     }
 ]
