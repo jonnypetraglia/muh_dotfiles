@@ -8,13 +8,21 @@ set PATH $PATH $HOME/.gem/ruby/2.7.0/bin
 set ELECTRON_TRASH gio
 
 set SFDX_REST_DEPLOY false
+set SFDX_PROJECT_AUTOUPDATE_DISABLE_FOR_PACKAGE_VERSION_CREATE true
 
 function fish_greeting
     fortune ~/masto
 end
 
+function isdot
+  ~/werk/isdot/bin/run $argv
+end
+
 keychain -q
 
+# starship init fish | source
 
-set SPACEFISH_PACKAGE_SHOW false
-set SPACEFISH_NODE_SHOW false
+function vim
+  echo NO! Use amp
+end
+# zoxide init fish | source
