@@ -21,4 +21,3 @@ UUID=6A0A92920A925B41                       /run/media/notbryant/windurs   ntfs 
 # "Green": /dev/sdc
 UUID=5688b375-0c10-45d5-9e82-52acb0060cf6   /run/media/notbryant/Green     ext4    relatime,errors=remount-ro,discard   0 2
 # /dev/sdc1 (???) = EE85-D23F
-q
